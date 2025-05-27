@@ -38,8 +38,8 @@ This collection highlights my passion for solving real-world problems using **Ge
 
 ## 📬 Contact Me
 
-- 📧 **Email**: your.email@example.com  
-- 🔗 **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-- 🧰 **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- 📧 **Email**: abbyss14@gmail.com 
+- 🔗 **LinkedIn**: [linkedin.com/in/your-profile](www.linkedin.com/in/abhishek-chakrabarty-1430b1200)  
+- 🧰 **GitHub**: [github.com/yourusername](https://github.com/abhishek23github)
 
 > Built with ❤️ for Generative AI and clean product experience.
