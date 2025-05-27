@@ -7,21 +7,21 @@ This collection highlights my passion for solving real-world problems using **Ge
 
 ## 🚀 Featured Projects
 
-| 🧠 Project | 🌟 Description |
-|-----------|----------------|
-| **Code Translator** | Convert code across languages using GPT (React + Python) |
-| **Incident Analyzer** | SLA-aware incident tracking, filtering, aging reports, summaries |
-| **Responsible AI Dashboard** | Bias, hallucination, and safety audit for LLM outputs |
-| **LLM Playground App** | Prompt-testing space for GPT models with live edit + replay |
+| 🧠 Project                   | 🌟 Description                                                   |
+| ---------------------------- | ---------------------------------------------------------------- |
+| **Code Translator**          | Convert code across languages using GPT (React + Python)         |
+| **Incident Analyzer**        | SLA-aware incident tracking, filtering, aging reports, summaries |
+| **Responsible AI Dashboard** | Bias, hallucination, and safety audit for LLM outputs            |
+| **LLM Playground App**       | Prompt-testing space for GPT models with live edit + replay      |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Vite, Styled Components  
-- **Backend**: Python (Flask), JS (Node), OpenAI SDK  
-- **Hosting**: Vercel (for portfolio), Render (for backend)  
-- **AI Services**: OpenAI GPT-4, Prompt Templates  
+- **Frontend**: React, Vite, Styled Components
+- **Backend**: Python (Flask), JS (Node), OpenAI SDK
+- **Hosting**: Vercel (for portfolio), Render (for backend)
+- **AI Services**: OpenAI GPT-4, Prompt Templates
 - **Design**: AOS Animations, Responsive Layout, Dark Mode (optional)
 
 ---
@@ -38,8 +38,8 @@ This collection highlights my passion for solving real-world problems using **Ge
 
 ## 📬 Contact Me
 
-- 📧 **Email**: abbyss14@gmail.com 
-- 🔗 **LinkedIn**: [linkedin.com/in/your-profile](www.linkedin.com/in/abhishek-chakrabarty-1430b1200)  
-- 🧰 **GitHub**: [github.com/yourusername](https://github.com/abhishek23github)
+- 📧 **Email**: abbyss14@gmail.com
+- 🔗 **LinkedIn**: [My LinkedIn](www.linkedin.com/in/abhishek-chakrabarty-1430b1200)
+- 🧰 **GitHub**: [My GitHub](https://github.com/abhishek23github)
 
 > Built with ❤️ for Generative AI and clean product experience.
