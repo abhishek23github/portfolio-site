@@ -32,8 +32,8 @@ export default function Contact() {
     <ContactSection id="contact" data-aos="fade-up">
       <Heading>Contact</Heading>
       <Info>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">linkedin.com/in/your-profile</a></p>
+        <p>Email: <a href="mailto:abbyss14@gmail.com">abbyss14@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhishek-chakrabarty-1430b1200/" target="_blank" rel="noreferrer">Abhishek Chakrabarty</a></p>
       </Info>
     </ContactSection>
   );

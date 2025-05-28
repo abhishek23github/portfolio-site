@@ -39,7 +39,7 @@ This collection highlights my passion for solving real-world problems using **Ge
 ## 📬 Contact Me
 
 - 📧 **Email**: abbyss14@gmail.com 
-- 🔗 **LinkedIn**: [My LinkedIn](www.linkedin.com/in/abhishek-chakrabarty-1430b1200)  
+- 🔗 **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/abhishek-chakrabarty-1430b1200/)  
 - 🧰 **GitHub**: [My GitHub](https://github.com/abhishek23github)
 
 > Built with ❤️ for Generative AI and clean product experience.
