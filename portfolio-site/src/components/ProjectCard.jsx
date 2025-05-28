@@ -2,16 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-  background: #1e1e1e;
-  border-radius: 12px;
-  padding: 20px;
+  background: #1c1c1c;
   color: white;
-  width: 300px;
-  transition: transform 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 
   &:hover {
-    transform: translateY(-8px);
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(79, 195, 247, 0.6); /* ✅ blue glow */
   }
 `;
 
@@ -43,6 +44,8 @@ const Links = styled.div`
 `;
 
 export default function ProjectCard({ project }) {
+
+  if (!project) return null; // ✅ safety
   return (
     <Card>
       <Image src={project.image} alt={project.title} />

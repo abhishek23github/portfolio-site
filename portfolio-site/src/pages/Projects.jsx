@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import projects from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
 import styled from "styled-components";
+import ProjectModal from "../components/ProjectModal";
+import Card from "../components/ProjectCard"; // Assuming you have a styled component for the card
 
 const Grid = styled.section`
   display: grid;
@@ -11,17 +13,21 @@ const Grid = styled.section`
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  background: #121212;
   scroll-margin-top: 80px;
 `;
 
 
 export default function Projects() {
+  const [selectedProject, setSelectedProject] = useState(null);
+
   return (
-    <Grid id="projects" data-aos="fade-up">
-      {projects.map((proj, index) => (
-        <ProjectCard key={index} project={proj} />
+    <Grid id="projects">
+      {projects.map((project, idx) => (
+        <div key={idx} onClick={() => setSelectedProject(project)} style={{ cursor: 'pointer' }}>
+          <ProjectCard project={project} />
+        </div>
       ))}
+      <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
     </Grid>
   );
 }
