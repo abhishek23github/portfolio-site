@@ -11,6 +11,7 @@ const Grid = styled.section`
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  scroll-margin-top: 80px;
 `;
 
 export default function Projects() {
