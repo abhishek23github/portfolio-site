@@ -4,15 +4,17 @@ import ProjectCard from "../components/ProjectCard";
 import styled from "styled-components";
 
 const Grid = styled.section`
-  width: 100%;
-  padding: 4rem 2rem;
-  background: #121212;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* ✅ Responsive columns */
   gap: 2rem;
+  padding: 4rem 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  background: #121212;
   scroll-margin-top: 80px;
 `;
+
 
 export default function Projects() {
   return (
