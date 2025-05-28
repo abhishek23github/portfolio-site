@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import GlobalStyle from "./styles/GlobalStyle";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,12 +21,14 @@ function App() {
 
   return (
     <>
+      <div id="scrollTopAnchor" style={{ position: 'absolute', top: 0 }}></div>
       <GlobalStyle />
       <Navbar />
       <HeroSection />
       <Projects />
       <About />
       <Contact />
+      <ScrollToTopButton />
     </>
   );
 }

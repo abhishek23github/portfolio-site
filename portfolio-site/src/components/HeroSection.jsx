@@ -5,13 +5,14 @@ import styled from "styled-components";
 const Container = styled.div`
   min-height: 80vh;
   width: 100%;
-  padding: 3rem 1rem;
+  padding: 6rem 2rem 3rem;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  scroll-margin-top: 80px;
 `;
 
 const ContentWrapper = styled.div`

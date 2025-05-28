@@ -2,12 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 const Nav = styled.nav`
-  background-color: #111;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);  /* ✅ Semi-transparent background */
+  backdrop-filter: blur(6px);           /* ✅ Optional blur for modern glass effect */
   color: white;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle divider */
 `;
 
 const NavLinks = styled.div`

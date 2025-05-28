@@ -9,12 +9,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     width: 100%;
+    min-height: 100%;
     height: auto;
-    min-height: 100vh;
     font-family: 'Inter', sans-serif;
     background-color: #0d0d0d;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: auto !important; 
   }
 
   body {
