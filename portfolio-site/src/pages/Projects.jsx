@@ -4,6 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 import styled from "styled-components";
 import ProjectModal from "../components/ProjectModal";
 import Card from "../components/ProjectCard"; // Assuming you have a styled component for the card
+import FadeInSection from "../components/FadeInSection";
 
 const Grid = styled.section`
   display: grid;
@@ -21,6 +22,7 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
+   <FadeInSection>
     <Grid id="projects">
       {projects.map((project, idx) => (
         <div key={idx} onClick={() => setSelectedProject(project)} style={{ cursor: 'pointer' }}>
@@ -29,5 +31,6 @@ export default function Projects() {
       ))}
       <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
     </Grid>
+   </FadeInSection>
   );
 }

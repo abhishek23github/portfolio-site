@@ -1,6 +1,9 @@
+/* eslint-disable no-unused-vars -- motion is used in JSX context */
+
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 const Container = styled.div`
   min-height: 80vh;
@@ -48,9 +51,18 @@ const Summary = styled.p`
 export default function HeroSection() {
   return (
     <Container>
-      <Name>Abhishek Chakrabarty</Name>
-      <Tagline>
-        I build{" "}
+      <motion.h1
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}>
+        Abhishek Chakrabarty
+      </motion.h1>
+
+      <motion.h2
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}>
+        I build
         <Typewriter
           words={[
             "GenAI tools",
@@ -65,8 +77,12 @@ export default function HeroSection() {
           deleteSpeed={50}
           delaySpeed={1500}
         />
-      </Tagline>
-      <Summary>
+      </motion.h2>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 1 }}>
         I’m a GenAI-focused product builder with a passion for designing
         practical, production-ready experiences using LLMs and modern frontend
         technologies. My work combines thoughtful UX with intelligent automation
@@ -74,7 +90,8 @@ export default function HeroSection() {
         dashboards. This portfolio showcases apps I’ve built to bridge ideas
         into outcomes, with a deep focus on usability, creativity, and
         responsible AI adoption.
-      </Summary>
+      </motion.p>
+
     </Container>
   );
 }

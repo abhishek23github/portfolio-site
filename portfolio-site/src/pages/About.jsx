@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import FadeInSection from "../components/FadeInSection";
 
 const AboutWrapper = styled.section`
   padding: 4rem 2rem;
@@ -23,11 +24,13 @@ const Paragraph = styled.p`
 
 export default function About() {
   return (
-    <AboutWrapper id="about" data-aos="fade-up">
-      <Heading>About Me</Heading>
-      <Paragraph>
-        I’m Abhishek Chakrabarty, a GenAI-driven product thinker who builds LLM-powered tools that solve real business problems. I bring together a passion for technology with a strong understanding of user needs, and I’m currently building a portfolio of AI tools including code converters, email generators, incident analyzers, and responsible AI dashboards. I aim to work at the intersection of product, program management, and applied AI.
-      </Paragraph>
-    </AboutWrapper>
+    <FadeInSection>
+      <AboutWrapper id="about" data-aos="fade-up">
+        <Heading>About Me</Heading>
+        <Paragraph>
+          I’m Abhishek Chakrabarty, a GenAI-driven product thinker who builds LLM-powered tools that solve real business problems. I bring together a passion for technology with a strong understanding of user needs, and I’m currently building a portfolio of AI tools including code converters, email generators, incident analyzers, and responsible AI dashboards. I aim to work at the intersection of product, program management, and applied AI.
+        </Paragraph>
+      </AboutWrapper>
+    </FadeInSection>
   );
 }
