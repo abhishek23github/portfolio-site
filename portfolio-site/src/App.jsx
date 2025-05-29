@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
@@ -9,14 +9,19 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 function App() {
+  const [showScroll, setShowScroll] = useState(false);
 
   useEffect(() => {
-    AOS.init({
-      duration: 1000
-    });
+    AOS.init({ duration: 1000 });
+
+    const handleScroll = () => {
+      setShowScroll(window.scrollY > 300); // show after scrolling 300px
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -28,7 +33,7 @@ function App() {
       <Projects />
       <About />
       <Contact />
-      <ScrollToTopButton />
+      <ScrollToTopButton show={showScroll} /> {/* ✅ Pass show prop */}
     </>
   );
 }

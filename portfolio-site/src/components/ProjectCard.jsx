@@ -12,7 +12,7 @@ const Card = styled.div`
 
   &:hover {
     transform: scale(1.03);
-    box-shadow: 0 8px 20px rgba(79, 195, 247, 0.6); /* ✅ blue glow */
+    box-shadow: 0 8px 20px rgba(79, 195, 247, 0.6);
   }
 `;
 
@@ -44,14 +44,23 @@ const Links = styled.div`
 `;
 
 export default function ProjectCard({ project }) {
+  if (!project) return null;
 
-  if (!project) return null; // ✅ safety
   return (
     <Card>
       <Image src={project.image} alt={project.title} />
       <Title>{project.title}</Title>
-      <p>{project.description}</p>
-      <Tech>{project.techStack.join(", ")}</Tech>
+      {/* ✅ Show short summary */}
+      {project.summary && (
+        <p
+          style={{ fontSize: "0.9rem", color: "#ccc", margin: "0.5rem 0 1rem" }}
+        >
+          {project.summary}
+        </p>
+      )}
+      {Array.isArray(project.techStack) && (
+        <Tech>{project.techStack.join(", ")}</Tech>
+      )}
       <Links>
         <a href={project.github} target="_blank" rel="noreferrer">
           GitHub

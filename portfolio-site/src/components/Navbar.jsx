@@ -5,8 +5,8 @@ const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.6);  /* ✅ Semi-transparent background */
-  backdrop-filter: blur(6px);           /* ✅ Optional blur for modern glass effect */
+  background-color: rgba(0, 0, 0, 0.6); /* ✅ Semi-transparent background */
+  backdrop-filter: blur(6px); /* ✅ Optional blur for modern glass effect */
   color: white;
   padding: 1rem 2rem;
   display: flex;
@@ -38,6 +38,13 @@ export default function Navbar() {
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
+        <a
+          href="/Abhishek_Chakrabarty_Resume_.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
       </NavLinks>
     </Nav>
   );

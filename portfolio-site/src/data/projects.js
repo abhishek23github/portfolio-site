@@ -1,39 +1,59 @@
 const projects = [
   {
     title: "Code Translator",
-    description:
-      "Converts code from one language to another using GPT. Includes frontend (React + TypeScript) and backend (Python).",
-    techStack: ["React", "TypeScript", "Python", "OpenAI"],
-    github: "https://github.com/yourusername/code-translator-frontend", // replace with your actual GitHub username
-    demo: "", // leave blank or update later
     image: "/images/code-translator.png",
+    summary: "A GenAI-powered app that converts code from one language to another using GPT.",
+    useCase: "Ideal for developers and learners needing fast cross-language code conversion.",
+    features: [
+      "Supports React, Python, JS, Java, and more",
+      "Frontend: React + TypeScript",
+      "Backend: Python with OpenAI API",
+      "History & Manual Load feature"
+    ],
+    github: "https://github.com/yourusername/code-translator-frontend",
+    demo: "",
   },
   {
     title: "Incident Analyzer",
-    description:
-      "A Python-based desktop app to analyze incidents, filter by SLA, age, group, and generate summaries using GPT.",
-    techStack: ["Python", "Tkinter", "Pandas", "OpenAI"],
-    github: "https://github.com/yourusername/IncidentAnalyzer",
-    demo: "",
     image: "/images/incident-analyzer.png",
+    summary: "A Python desktop app to analyze ITSM incidents with GPT-powered summaries and SLA insights.",
+    useCase: "Used by IT operations to track aging incidents, summarize timelines, and flag SLA breaches.",
+    features: [
+      "Filters by SLA %, assignment group, month/week",
+      "Auto-summary of incidents using GPT",
+      "Exports to CSV/Excel",
+      "Graphs for trends and distribution"
+    ],
+    github: "https://github.com/yourusername/incident-analyzer",
+    demo: "",
   },
   {
     title: "Responsible AI Dashboard",
-    description:
-      "A dashboard that evaluates LLM outputs on fairness, bias, toxicity, and hallucination with visual insights.",
-    techStack: ["Python", "Streamlit", "LLM Evaluation"],
+    image: "/images/responsible-ai-dashboard.png",
+    summary: "A Streamlit dashboard for evaluating LLM output quality and risk using Responsible AI metrics.",
+    useCase: "Helps GenAI teams compare outputs, detect bias/toxicity, and track hallucination risk.",
+    features: [
+      "Supports multiple LLMs for side-by-side comparison",
+      "Analyzes bias, toxicity, relevance, coherence",
+      "Exports results, shows radar charts",
+      "Built with Python, Streamlit"
+    ],
     github: "https://github.com/yourusername/responsible-ai-dashboard",
     demo: "",
-    image: "/images/responsible-ai-dashboard.png",
   },
   {
     title: "LLM Playground App",
-    description:
-      "An experimental web-based chat interface to test multiple prompts, responses, and model behavior interactively.",
-    techStack: ["JavaScript", "OpenAI", "LLMs"],
+    image: "/images/llm-app.png",
+    summary: "A lightweight interface to test and compare prompt responses across LLMs.",
+    useCase: "Great for researchers, PMs, and devs experimenting with prompts and tuning outputs.",
+    features: [
+      "Multi-prompt and multi-model input",
+      "Tabbed chat interface",
+      "Clear, clean layout with minimal design",
+      "Built with JavaScript + OpenAI API"
+    ],
     github: "https://github.com/yourusername/llm-app",
     demo: "",
-    image: "/images/llm-app.png",
   },
 ];
 
