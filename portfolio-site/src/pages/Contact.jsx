@@ -36,6 +36,7 @@ export default function Contact() {
         <Info>
           <p>Email: <a href="mailto:abbyss14@gmail.com">abbyss14@gmail.com</a></p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/abhishek-chakrabarty-1430b1200/" target="_blank" rel="noreferrer">Abhishek Chakrabarty</a></p>
+          <p>GitHub: <a href="https://github.com/abhishek23github" target="_blank" rel="noreferrer">Abhishek's GitHub</a></p>	
         </Info>
     </ContactSection>
     </FadeInSection>

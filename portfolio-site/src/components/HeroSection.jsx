@@ -68,7 +68,7 @@ export default function HeroSection() {
             "GenAI tools",
             "LLM apps",
             "AI dashboards",
-            "incident analyzers",
+            "Data Analyzers",
           ]}
           loop
           cursor

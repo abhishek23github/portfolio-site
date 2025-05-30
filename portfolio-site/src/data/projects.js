@@ -10,7 +10,7 @@ const projects = [
       "Backend: Python with OpenAI API",
       "History & Manual Load feature"
     ],
-    github: "https://github.com/yourusername/code-translator-frontend",
+    github: "https://github.com/abhishek23github/code-translator-frontend",
     demo: "",
   },
   {
@@ -24,7 +24,7 @@ const projects = [
       "Exports to CSV/Excel",
       "Graphs for trends and distribution"
     ],
-    github: "https://github.com/yourusername/incident-analyzer",
+    github: "https://github.com/abhishek23github/IncidentAnalyzer",
     demo: "",
   },
   {
@@ -38,7 +38,7 @@ const projects = [
       "Exports results, shows radar charts",
       "Built with Python, Streamlit"
     ],
-    github: "https://github.com/yourusername/responsible-ai-dashboard",
+    github: "https://github.com/abhishek23github/responsible-ai-dashboard",
     demo: "",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
       "Clear, clean layout with minimal design",
       "Built with JavaScript + OpenAI API"
     ],
-    github: "https://github.com/yourusername/llm-app",
+    github: "https://github.com/abhishek23github/llm-app",
     demo: "",
   },
 ];
