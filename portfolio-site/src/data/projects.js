@@ -57,7 +57,7 @@ const projects = [
   },
   {
     title: "LLM UI Testing Platform", 
-    image: "/images/llm-ui-testing.png",
+    image: "/images/llm-app.png",
     summary: "An app that auto-generates and runs Selenium-based UI test cases for broweser applications",
     useCase: "Ideal for developers or QA teams wanting to automate UI tests quickly without writing manual scripts.",
     features: [

@@ -39,7 +39,7 @@ export default function Navbar() {
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <a
-          href="/Abhishek_Chakrabarty_Resume_.pdf"
+          href="/Abhishek_Chakrabarty_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
